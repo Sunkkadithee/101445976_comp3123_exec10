@@ -1,0 +1,97 @@
+/* Global Styles */
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #93c5fd); /* Soft gradient for a modern background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px; /* Add space around the entire page */
+}
+
+/* App Container */
+.App {
+  background: #ffffff; /* White card for contrast */
+  border-radius: 20px; /* Smooth rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Elevated shadow for a premium feel */
+  padding: 60px; /* Increased padding for more space inside the container */
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.App:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Counter Display */
+.counter-display {
+  font-size: 4rem; /* Larger, more impactful text */
+  font-weight: bold;
+  margin-bottom: 40px; /* Increased space below the counter */
+  color: #007BFF; /* Highlight color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.counter-display:hover {
+  color: #0056b3;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Group */
+.controls {
+  display: flex;
+  justify-content: space-between; /* Adds space between buttons */
+  gap: 20px; /* Increased space between each button */
+  margin-top: 40px; /* More space above the button group */
+  margin-bottom: 40px; /* Space below the button group */
+}
+
+/* Button Styles */
+button {
+  flex: 1; /* Make buttons flexible and equal width */
+  padding: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  border: none;
+  border-radius: 12px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0056b3, #004080);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+button:active {
+  background: #004080;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(3px);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px; /* More space above the footer */
+  font-size: 0.85rem;
+  color: #555;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+footer:hover {
+  opacity: 1;
+}
