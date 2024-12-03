@@ -55,3 +55,8 @@ The reducer ensures that state updates are predictable and immutable.
 Dispatch is a method provided by Redux to trigger actions. In React, the useDispatch hook is used to access this method. For example:
 
 Clicking the "Increment" button triggers dispatch(increment()), which sends the INCREMENT action to the store.
+
+
+![Increment](../exec10/sceenshot/Increment.png)
+![Decrement](../exec10/sceenshot/Decrement.png)
+![Reset](../exec10/sceenshot/Reset.png)
